@@ -1,0 +1,14 @@
+torch>=2.0.0
+torchvision
+torchaudio
+gymnasium[atari]
+ale-py>=0.10.0
+opencv-python
+numpy
+imageio
+imageio-ffmpeg
+matplotlib
+pygame
+keyboard
+pyautogui
+tensorboard

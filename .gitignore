@@ -1,0 +1,32 @@
+# =====================
+# Python
+# =====================
+__pycache__/
+*.py[cod]
+
+# =====================
+# Deep Learning / RL
+# =====================
+logs/
+**/logs/
+events.out.tfevents.*
+wandb/
+runs/
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+
+# =====================
+# Data
+# =====================
+data/
+datasets/
+
+# =====================
+# IDE / OS
+# =====================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

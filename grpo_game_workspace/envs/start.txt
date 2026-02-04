@@ -1,0 +1,9 @@
+C:\Users\weizi\.conda\envs\airraid-env --no-capture-output python eval.py --model_path checkpoints/dqn_checkpoint_episode_2700.pth --render_mode human
+
+ D:/ProgramData/miniconda3/Scripts/conda.exe run -p C:\Users\weizi\.conda\envs\airraid-env --no-capture-output python eval.py --model_path checkpoints/dqn_checkpoint_episode_2500.pth --render_mode human       
+
+ conda run -p C:\Users\weizi\.conda\envs\airraid-env --no-capture-output python eval.py --model_path checkpoints/dqn_checkpoint_episode_600.pth --render_mode human --print_detections --clear_screen
+
+
+
+ python train.py --num_episodes 10000 --batch_size 32 --learning_rate 1e-4 --eps_decay 100000 --replay_capacity 100000 --target_update 1000 --n_step 3
